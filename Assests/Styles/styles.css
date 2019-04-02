@@ -133,3 +133,8 @@
 #last-footer {
     margin: 0px 20px 20px -20px;
 }
+.footer ul li img {
+    height: 15px;
+    width: 23px;
+    padding-left: 3px;
+}
