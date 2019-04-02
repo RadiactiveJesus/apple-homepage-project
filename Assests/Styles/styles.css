@@ -15,6 +15,7 @@
     justify-content: center;
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     width: 100%;
+    padding-top: 20px;
     
 }
 .nav-bar ul li {
@@ -40,9 +41,7 @@
     margin-top: 6px;
     width: 120px;
     padding: 0px 0px 0px 0px;
-    background: -webkit-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080); /* Chrome10+, Safari5.1+ */
-    background: -moz-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);    /* FF3.6+ */
-    background: linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);      /* W3C */
+    background: transparent;
 }
 .main-text {
     display: flex;
@@ -80,4 +79,28 @@
 }
 .main-text ul h3 i {
     padding-left: 20px;
+}
+.footer-images {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 203px;
+    margin-bottom: -203px;
+}
+.footer-images img {
+    width: 25%;
+}
+.footer {
+    color: #6e6e6e;
+    font-size: .8334em;
+    line-height: 1.2;
+    display: flex;
+}
+.footer ul {
+    color: #6e6e6e;
+    font-size: .8334em;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
 }
