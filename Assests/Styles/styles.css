@@ -22,9 +22,22 @@
     display: inline;
     border-left: 1px solid rgb(77, 74, 74);
     color: #333;
-    padding: 12px 18px 10px 18px;
+    padding: 9px 18px 9px 18px;
     color: white;
-
+    margin-left: 14px;
+}
+#apple {
+    border-left: 0px;
+}
+#search {
+    vertical-align: middle;
+    margin: -4px 0px;
+}
+#glass {
+    position: absolute;
+    border-left: 0px;
+    color: white;
+    margin: 12px 0px 0px 560px;
 }
 .nav-bar ul {
     border: 1px solid rgb(77, 74, 74);
@@ -32,16 +45,22 @@
     width: 845px;
     height: 36px;
     line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: -webkit-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080); /* Chrome10+, Safari5.1+ */
     background: -moz-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);    /* FF3.6+ */
     background: linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);      /* W3C */
 }
 .nav-bar ul li input {
     border-radius: 12px;
-    margin-top: 6px;
     width: 120px;
     padding: 0px 0px 0px 0px;
     background: transparent;
+}
+.nav-bar ul a {
+    color: white;
+    text-decoration: none;
 }
 .main-text {
     display: flex;
