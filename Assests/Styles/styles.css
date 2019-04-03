@@ -1,0 +1,159 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.main-content {
+    background: url("../Media/expedition_hero.jpg");
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+.nav-bar ul li {
+    display: inline;
+    border-left: 1px solid rgb(77, 74, 74);
+    color: #333;
+    padding: 9px 18px 9px 18px;
+    color: white;
+    margin-left: 14px;
+}
+#apple {
+    border-left: 0px;
+}
+#search {
+    vertical-align: middle;
+    margin: -4px 0px;
+}
+#glass {
+    position: absolute;
+    border-left: 0px;
+    color: white;
+    margin: 12px 0px 0px 560px;
+}
+.nav-bar ul {
+    border: 1px solid rgb(77, 74, 74);
+    border-radius: 4px;
+    width: 845px;
+    height: 36px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080); /* Chrome10+, Safari5.1+ */
+    background: -moz-linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);    /* FF3.6+ */
+    background: linear-gradient(bottom, #666,#5e5e5e 50%,#707070 50%, #808080);      /* W3C */
+}
+.nav-bar ul li input {
+    border-radius: 12px;
+    width: 120px;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+}
+.nav-bar ul a {
+    color: white;
+    text-decoration: none;
+}
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    color: white;
+    margin-top: 150px;
+}
+.main-text a{
+    text-decoration: none;
+    color: white;
+}
+.main-text ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-text ul li {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 36px;
+    font-weight: lighter;
+}
+.main-text ul h1{
+    font-size: 34px 
+}
+.main-text ul h2{
+    font-size: 26px 
+}
+.main-text ul h3{
+    font-size: 22px 
+}
+.main-text ul h3 i {
+    padding-left: 20px;
+}
+.footer-images {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 203px;
+    margin-bottom: -203px;
+}
+.footer-images img {
+    width: 25%;
+}
+.footer {
+    color: #6e6e6e;
+    font-size: 11px;
+    line-height: 1.2;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    word-spacing: 1px;
+    margin: 15px 0px;
+}
+.footer ul {
+    color: #6e6e6e;
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+}
+.main-content p {
+    width: 49%;
+    color: #6e6e6e;
+    font-size: 11px;
+    line-height: 1.2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer a {
+    text-decoration: none;
+    color: #08c;
+    padding: 0px 3px;
+}
+.footer ul li a {
+    border-right: 1px solid#a8a6a6;
+}
+#last-footer a {
+    border-right: 1px solid#a8a6a6;
+    text-decoration: none;
+    color: #08c;
+    padding: 0px 3px;
+}
+#last-footer {
+    margin: 0px 20px 20px -20px;
+}
+.footer ul li img {
+    height: 15px;
+    width: 23px;
+    padding-left: 3px;
+}
